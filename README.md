@@ -1,6 +1,6 @@
 ## About
 
-Visual simulator for the DES (Data Encryption Standard) algorithm written in C++14. Allows for visualising the steps of the algorithm in real time. It was build for learning purposes as an assingment for an Applied Cryptography class.
+Visual simulator for the DES (Data Encryption Standard) algorithm written in C++14. It allows for visualising the steps of the algorithm in real time. It was built for learning purposes as an assignment for an Applied Cryptography class.
 
 ## Dependencies
 

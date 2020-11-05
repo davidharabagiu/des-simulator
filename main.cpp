@@ -1,6 +1,9 @@
-#include <iostream>
+#include <wx/wxprec.h>
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+#ifndef WX_PRECOMP
+#include <wx/wx.h>
+#endif //WX_PRECOMP
+
+#include "dessimulator.h"
+
+wxIMPLEMENT_APP(DesSimulator);
