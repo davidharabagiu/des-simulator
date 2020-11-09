@@ -3,7 +3,9 @@
 
 bool DesSimulator::OnInit()
 {
-    SetTopWindow(new SimulatorFrame);
-    GetTopWindow()->Show(true);
+    auto frame = new SimulatorFrame;
+    SetTopWindow(frame);
+    frame->Initialize();
+    frame->Show(true);
     return true;
 }
